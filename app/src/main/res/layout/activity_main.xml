@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/first_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/background_edit_text"
+        android:inputType="text"
+        android:padding="8dp" />
+
+    <TextView
+        android:id="@+id/first_name_validation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="Input your first name"
+        android:textColor="@color/red"
+        android:textSize="12sp"
+        android:visibility="gone" />
+
+    <EditText
+        android:id="@+id/last_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:layout_marginBottom="12dp"
+        android:background="@drawable/background_edit_text"
+        android:inputType="text"
+        android:padding="8dp" />
+
+    <EditText
+        android:id="@+id/date_of_birth"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        android:background="@drawable/background_edit_text"
+        android:inputType="date"
+        android:padding="8dp" />
+
+    <EditText
+        android:id="@+id/login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        android:background="@drawable/background_edit_text"
+        android:inputType="text"
+        android:padding="8dp" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        android:background="@drawable/background_edit_text"
+        android:inputType="textPassword"
+        android:padding="8dp" />
+
+    <Button
+        android:id="@+id/register_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/background_edit_text"
+        android:padding="8dp"
+        android:text="@string/register" />
+
+</LinearLayout>
